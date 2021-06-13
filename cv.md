@@ -1,8 +1,8 @@
 1. **Name**: Kaigarodov Andrey
 2. **Contacts**:
-   - email: kaigarodov2012@yandex.ru
-   - telegram: https://t.me/kaigarodov
-   - vkontakte: https://vk.com/a.kaygarodov
+   - email: [kaigarodov2012@yandex.ru](kaigarodov2012@yandex.ru)
+   - telegram: [https://t.me/kaigarodov](https://t.me/kaigarodov)
+   - vkontakte: [https://vk.com/a.kaygarodov](https://vk.com/a.kaygarodov)
 3. **About me**
 
    - Objective and priority: My main Objective is to become a software developer. The main priority is to study the Qt framework and related technologies for working with systems and visualizing information.
@@ -69,5 +69,6 @@ void StartTaskUartOut(void *argument)
 6. Education
    - Bachelors degree: Ural Federal University, Institute of New Materials and Technologies, Mechatronics and Robotics, (2016-2020).
    - Master degree: Ural Federal University, Institute of Radio Electronics and Information Technologies, Management information systems, (2020 - 2022).
+   * Completed the C ++ development course from Prosoft Systems (Embedded and desktop)
 7. Languages
    - English: A1 (Can read, listening, speaking and write with mistakes. Working on it)
