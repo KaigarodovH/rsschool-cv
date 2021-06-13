@@ -1,27 +1,48 @@
-1. Full name: Kaigarodov Andrey
-2. Contacts:
+1. **Name**: Kaigarodov Andrey
+2. **Contacts**:
    - email: kaigarodov2012@yandex.ru
-   - vkontakte: https://vk.com/a.kaygarodov
    - telegram: https://t.me/kaigarodov
-3. About me  
-   **Main target и приоритеры**: Стать крутым разработчиком десктоп приложений, познать с++, а сним и фреймворк qt.
+   - vkontakte: https://vk.com/a.kaygarodov
+3. **About me**
 
-   **Сильные стороны**: Люблю капаться в деталях. Не ограничиваюсь только одним сетком технолоий и всегда готов попробовать что-то новое.
+   - Objective and priority: My main Objective is to become a software developer. The main priority is to study the Qt framework and related technologies for working with systems and visualizing information.
 
-   **Expirience**:
+   - Strengths: I like to understand the details. I am not limited to one set of technologies and am always ready to try or study something new.
 
-   - 2017-2017 Unilever
-   - 2020-Now ProsoftSystems
+   - Expirience:
+     - Unilever. Business Process Automation Department (Trainee) 02.01.2019-26.05.2020
+     - Prosoft Systems. Power Systems Automation Department (Tester junior) 07.02.2021 - Now.
 
-4. Skills
+4. **Skills**
 
-   - MySQL/MongoDB
-   - HTML/CSS
-   - GIT
-   - python
-   - C/C++/C#
+   - Front-end:  
+     Sometimes I make a simple web page or landing page. Now I'm trying to use JS to add ajax and dynamic components to a project.
+     - Html/CSS
+     - Bootstrap
 
-5. Code example
+   * Back-end:  
+     Usually I use the components below to send statics, connect to the database and create business logic.
+     - Asp.net core
+     - Django/flask
+
+   - Desktop:  
+     I am intensively studying these tools. This is most closely related to my work activities.
+     - C++ + Qt Framework
+
+   * Embedded:
+
+     - C + STM32CubeIDE
+
+   * Database:
+     - MySQL
+     - MongoDB
+     - PostgressSQL
+
+   - Other:
+     - Git
+     - Doker (rarely used)
+
+5. **Code example**
 
 ```cpp
 void StartTaskUartOut(void *argument)
@@ -46,7 +67,7 @@ void StartTaskUartOut(void *argument)
 ```
 
 6. Education
-   - URFU 2016-2020
-   - Urfu 2020-2022
+   - Bachelors degree: Ural Federal University, Institute of New Materials and Technologies, Mechatronics and Robotics, (2016-2020).
+   - Master degree: Ural Federal University, Institute of Radio Electronics and Information Technologies, Management information systems, (2020 - 2022).
 7. Languages
-   - English: B1
+   - English: A1 (Can read, listening, speaking and write with mistakes. Working on it)
