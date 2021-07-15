@@ -3,14 +3,12 @@
 </div>
 
 1. **Name**  
-    Kaigarodov Andrey
-    
+    Kaigarodov Andrey  
 ---
 2. **Contacts**
    - email: [kaigarodov2012@yandex.ru](kaigarodov2012@yandex.ru)
    - telegram: [https://t.me/kaigarodov](https://t.me/kaigarodov)
-   - vkontakte: [https://vk.com/a.kaygarodov](https://vk.com/a.kaygarodov)
-   
+   - vkontakte: [https://vk.com/a.kaygarodov](https://vk.com/a.kaygarodov)  
 ---
 3. **About me**
    - Objective and priority: My main Objective is to become a software developer. The main priority is to study the Qt framework and related technologies for working with systems and visualizing information.
@@ -19,8 +17,7 @@
 
    - Expirience:
      - Unilever. Business Process Automation Department (Trainee) 02.01.2019-26.05.2020
-     - Prosoft Systems. Power Systems Automation Department (Tester junior) 07.02.2021 - Now.
-     
+     - Prosoft Systems. Power Systems Automation Department (Tester junior) 07.02.2021 - Now.     
 ---
 4. **Skills**
    - Front-end:  
@@ -47,18 +44,15 @@
 
    - Other:  
      - Git
-     - Doker (rarely used)
-
+     - Doker (rarely used)  
 ---
 5. **Education**
    - Bachelors degree: Ural Federal University, Institute of New Materials and Technologies, Mechatronics and Robotics, (2016-2020).
    - Master degree: Ural Federal University, Institute of Radio Electronics and Information Technologies, Management information systems, (2020 - 2022).
-   - Completed the C ++ development course from Prosoft Systems (Embedded and desktop).
-
+   - Completed the C ++ development course from Prosoft Systems (Embedded and desktop).  
 ---
 6. **Languages**
-   - English: A1 (Can read, listening, speaking and write with mistakes. Working on it)
-
+   - English: A1 (Can read, listening, speaking and write with mistakes. Working on it)  
 ---
 7. **Code example**
 
