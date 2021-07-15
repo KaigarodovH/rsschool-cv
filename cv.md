@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://i.ibb.co/VvDgY2w/tempsnip.png" style="border-radius:50%" alt="kit" title="Yeap, It's me"/>
-<div>
+</div>
 
 1. **Name**: Kaigarodov Andrey
 2. **Contacts**:
