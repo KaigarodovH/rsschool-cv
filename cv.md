@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.ibb.co/VvDgY2w/tempsnip.png" style="border-radius:50%" alt="kit" title="Yeap, It's me"/>
+  <img src="https://i.ibb.co/VvDgY2w/tempsnip.png" style="border-radius:10%" alt="kit" title="Yeap, It's me"/>
 </div>
 
 1. **Name**: Kaigarodov Andrey
