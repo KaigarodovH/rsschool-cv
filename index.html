@@ -20,35 +20,135 @@
     <main>
         <article>
             <div class="column">
+               
                 <section class="section-wrapper">
-                    <h3>Section 1</h3>
-                    <p>Test nu a xuli</p>
+                    <h3>Name</h3>
+                    <p>Kaigarodov Andrey</p>
                 </section>
                 <section class="section-wrapper">
-                    <h3>Section 2</h3>
-                    <p>Test nu a xuli</p>
+                    <h4>Contacts</h4>
+                    <ul>
+                        <li>Email: <a
+                                href="https://andreykaigarodov.github.io/rsschool-cv/kaigarodov2012@yandex.ru">kaigarodov2012@yandex.ru</a>
+                        </li>
+                        <li>Telegram: <a href="https://t.me/kaigarodov">https://t.me/kaigarodov</a></li>
+                        <li>VK: <a href="https://vk.com/a.kaygarodov">https://vk.com/a.kaygarodov</a></li>
+                    </ul>
                 </section>
                 <section class="section-wrapper">
-                    <h3>Section 3</h3>
-                    <p>Test nu a xuli</p>
+                    <h4 id="main_page_posts">My expirience</h4>
+                    <ul>
+                        <li>Front-end:<br>
+                            Sometimes I make a simple web page or landing page. Now I’m trying to use JS to add ajax and
+                            dynamic
+                            components to a project.
+                            <ul>
+                                <li>Html/CSS</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </li>
+                        <li>Back-end:<br>
+                            Usually I use the components below to send statics, connect to the database and create business
+                            logic.
+                            <ul>
+                                <li>Asp.net core</li>
+                                <li>Django/flask</li>
+                            </ul>
+                        </li>
+                        <li>Desktop:<br>
+                            I am intensively studying these tools. This is most closely related to my work activities.
+                            <ul>
+                                <li>C++ + Qt Framework</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Embedded:
+                            <ul>
+                                <li>C + STM32CubeIDE</li>
+                            </ul>
+                        </li>
+                        <li>Database:
+                            <ul>
+                                <li>MySQL</li>
+                                <li>MongoDB</li>
+                                <li>PostgressSQL</li>
+                            </ul>
+                        </li>
+                        <li>Other:
+                            <ul>
+                                <li>Git</li>
+                                <li>Doker</li>
+                            </ul>
+                        </li>
+                    </ul>
                 </section>
                 <section class="section-wrapper">
-                    <h3>Section 4</h3>
-                    <p>Test nu a xuli</p>
+                    <h3>Languages</h3>
+                    <p>English: A1 (Can read, listening, speaking and write with mistakes. Working on it)</p>
                 </section>
-                <section class="section-wrapper">
-                    <h3>Section 4</h3>
-                    <p>Test nu a xuli</p>
-                </section>
+               
             </div>
             <div class="column">
                 <section class="section-wrapper">
-                    <h3>Section 4</h3>
-                    <p>Test nu a xuli</p>
+                    <h4 id="main_page_about_me"> About me</h4>
+                    <ul>
+                    <li>
+                        <p>Objective and priority: My main Objective is to become a software developer. The main
+                            priority is to study
+                            the Qt framework and related technologies for working with systems and visualizing
+                            information.</p>
+                    </li>
+                    <li>
+                        <p>Strengths: I like to understand the details. I am not limited to one set of technologies and
+                            am always ready
+                            to try or study something new.</p>
+                    </li>
+                    <li>
+                        <p>Expirience:</p>
+                        <ul>
+                            <li>Unilever. Business Process Automation Department (Trainee) 02.01.2019-26.05.2020</li>
+                            <li>Prosoft Systems. Power Systems Automation Department (Tester junior) 07.02.2021 - Now.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                </section>
+                
+                <section class="section-wrapper">
+                    <h4>Education</h4>
+                <ul>
+                    <li>Bachelors degree: Ural Federal University, Institute of New Materials and Technologies,
+                        Mechatronics and
+                        Robotics, (2016-2020).</li>
+                    <li>Master degree: Ural Federal University, Institute of Radio Electronics and Information
+                        Technologies,
+                        Management information systems, (2020 - 2022).</li>
+                    <li>Completed the C ++ development course from Prosoft Systems (Embedded and desktop)</li>
+                </ul>
                 </section>
                 <section class="section-wrapper">
-                    <h3>Section 4</h3>
-                    <p>Test nu a xuli</p>
+                    <h4>Code exanple</h4>
+                    <pre style="font-size: 13px; overflow-x:scroll">
+void StartTaskUartOut(void *argument)
+{
+  /* USER CODE BEGIN StartTaskUartOut */
+  T_IO_Message msg;
+  osStatus_t status;
+  uint8_t* data_ptr;
+  /* Infinite loop */
+  for(;;)
+  {
+	if(status == osOK)
+	{
+	    data_ptr = msg.template_ptr == NULL ? msg.buff : msg.template_ptr;
+	    while (HAL_UART_Transmit_IT(&huart3, data_ptr, strlen(data_ptr))==HAL_BUSY);
+	}
+	status = osMessageQueueGet(StdOutputHandle, &msg, NULL, 0U);
+	osDelay(1);
+  }
+  /* USER CODE END StartTaskUartOut */
+}
+                    </pre>
                 </section>
             </div>
         </article>
