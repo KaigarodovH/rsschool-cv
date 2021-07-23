@@ -2,14 +2,18 @@
 <html lang="ru">
 <title>Kaigarodov CV</title>
 <link rel="stylesheet" type="text/css" href="./style.css">
-<meta charset="utf-8"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+<meta charset="utf-8" />
 </head>
 
 <body>
     <header>
-        <h1>HW</h1>
+        <h1>KAIGARODOV</h1>
+        <h2>ANDREY</h2>
+        <p>± front-end developer</p>
         <nav class="navigation">
-            <a>Name</a>
             <a>Contacts</a>
             <a>About me</a>
             <a>Skills</a>
@@ -21,13 +25,12 @@
     <main>
         <article>
             <div class="column">
-               
                 <section class="section-wrapper">
-                    <h3>Name</h3>
-                    <p>Kaigarodov Andrey</p>
-                </section>
-                <section class="section-wrapper">
-                    <h4>Contacts</h4>
+                    <div class="media-profile-photo">
+                        <img src="2.svg">
+                    </div>
+
+                    <h3>Contacts</h3>
                     <ul>
                         <li>Email: <a
                                 href="https://andreykaigarodov.github.io/rsschool-cv/kaigarodov2012@yandex.ru">kaigarodov2012@yandex.ru</a>
@@ -37,46 +40,47 @@
                     </ul>
                 </section>
                 <section class="section-wrapper">
-                    <h4 id="main_page_posts">My expirience</h4>
+                    <h3 id="main_page_posts">My expirience</h3>
                     <ul>
                         <li>Front-end:<br>
                             Sometimes I make a simple web page or landing page. Now I’m trying to use JS to add ajax and
                             dynamic
                             components to a project.
-                            <ul>
+                            <ul class="stack-skills">
                                 <li>Html/CSS</li>
                                 <li>Bootstrap</li>
                             </ul>
                         </li>
                         <li>Back-end:<br>
-                            Usually I use the components below to send statics, connect to the database and create business
+                            Usually I use the components below to send statics, connect to the database and create
+                            business
                             logic.
-                            <ul>
+                            <ul class="stack-skills">
                                 <li>Asp.net core</li>
                                 <li>Django/flask</li>
                             </ul>
                         </li>
                         <li>Desktop:<br>
                             I am intensively studying these tools. This is most closely related to my work activities.
-                            <ul>
+                            <ul class="stack-skills">
                                 <li>C++ + Qt Framework</li>
                             </ul>
                         </li>
                         <li>
                             Embedded:
-                            <ul>
+                            <ul class="stack-skills">
                                 <li>C + STM32CubeIDE</li>
                             </ul>
                         </li>
                         <li>Database:
-                            <ul>
+                            <ul class="stack-skills">
                                 <li>MySQL</li>
                                 <li>MongoDB</li>
                                 <li>PostgressSQL</li>
                             </ul>
                         </li>
                         <li>Other:
-                            <ul>
+                            <ul class="stack-skills">
                                 <li>Git</li>
                                 <li>Doker</li>
                             </ul>
@@ -87,48 +91,51 @@
                     <h3>Languages</h3>
                     <p>English: A1 (Can read, listening, speaking and write with mistakes. Working on it)</p>
                 </section>
-               
+
             </div>
             <div class="column">
                 <section class="section-wrapper">
-                    <h4 id="main_page_about_me"> About me</h4>
+                    <h3 id="main_page_about_me"> About me</h3>
                     <ul>
-                    <li>
-                        <p>Objective and priority: My main Objective is to become a software developer. The main
-                            priority is to study
-                            the Qt framework and related technologies for working with systems and visualizing
-                            information.</p>
-                    </li>
-                    <li>
-                        <p>Strengths: I like to understand the details. I am not limited to one set of technologies and
-                            am always ready
-                            to try or study something new.</p>
-                    </li>
-                    <li>
-                        <p>Expirience:</p>
-                        <ul>
-                            <li>Unilever. Business Process Automation Department (Trainee) 02.01.2019-26.05.2020</li>
-                            <li>Prosoft Systems. Power Systems Automation Department (Tester junior) 07.02.2021 - Now.
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+                        <li>
+                            <p>Objective and priority: My main Objective is to become a software developer. The main
+                                priority is to study
+                                the Qt framework and related technologies for working with systems and visualizing
+                                information.</p>
+                        </li>
+                        <li>
+                            <p>Strengths: I like to understand the details. I am not limited to one set of technologies
+                                and
+                                am always ready
+                                to try or study something new.</p>
+                        </li>
+                        <li>
+                            <p>Expirience:</p>
+                            <ul>
+                                <li>Unilever. Business Process Automation Department (Trainee) 02.01.2019-26.05.2020
+                                </li>
+                                <li>Prosoft Systems. Power Systems Automation Department (Tester junior) 07.02.2021 -
+                                    Now.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </section>
-                
+
                 <section class="section-wrapper">
-                    <h4>Education</h4>
-                <ul>
-                    <li>Bachelors degree: Ural Federal University, Institute of New Materials and Technologies,
-                        Mechatronics and
-                        Robotics, (2016-2020).</li>
-                    <li>Master degree: Ural Federal University, Institute of Radio Electronics and Information
-                        Technologies,
-                        Management information systems, (2020 - 2022).</li>
-                    <li>Completed the C ++ development course from Prosoft Systems (Embedded and desktop)</li>
-                </ul>
+                    <h3>Education</h3>
+                    <ul>
+                        <li>Bachelors degree: Ural Federal University, Institute of New Materials and Technologies,
+                            Mechatronics and
+                            Robotics, (2016-2020).</li>
+                        <li>Master degree: Ural Federal University, Institute of Radio Electronics and Information
+                            Technologies,
+                            Management information systems, (2020 - 2022).</li>
+                        <li>Completed the C ++ development course from Prosoft Systems (Embedded and desktop)</li>
+                    </ul>
                 </section>
                 <section class="section-wrapper">
-                    <h4>Code exanple</h4>
+                    <h3>Code exanple</h3>
                     <pre style="font-size: 13px; overflow-x:scroll">
 void StartTaskUartOut(void *argument)
 {
@@ -155,8 +162,10 @@ void StartTaskUartOut(void *argument)
         </article>
     </main>
     <footer>
-        <hr>
-        <p>best best</p>
+        <p>GitHub: <a>https://github.com/KaigarodovH</a></p>
+        <img src="./rs_school_js.svg">
+        <p>© 2021 Kaigarodov</p>
+
     </footer>
 </body>
 
