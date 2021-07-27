@@ -3,7 +3,6 @@
   scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
-  width: 5px;
   height: 5px;
 }
 
@@ -38,6 +37,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   background-color: #e0e0e049;
+  min-height: 85px;
 }
 header > h1,
 p {
@@ -63,14 +63,16 @@ nav > a {
 main {
   background-color: #ffffff;
   flex: 1;
-  max-height: 86vh;
 }
 
 article {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
+  /*
+  потом появится мб
   overflow-y: scroll;
+  */
   justify-content: center;
 }
 .column {
