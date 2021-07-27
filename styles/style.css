@@ -33,7 +33,7 @@ body {
 }
 
 header {
-  height: 13vh;
+  height: 9vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -63,29 +63,27 @@ nav > a {
 main {
   background-color: #ffffff;
   flex: 1;
-  max-height: 82vh;
+  max-height: 86vh;
 }
 
 article {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
   height: 100%;
-  /*подумать*/
   overflow-y: scroll;
+  justify-content: center;
 }
 .column {
+  padding: 2vh 0 2vh 0;
   display: flex;
   flex: 1;
   flex-direction: column;
-  width: 50%;
-  min-width: 50vh;
+  min-width: 25vw;
   align-items: center;
-  /*подумать*/
 }
 
 .section-wrapper {
-  width: 80%;
+  width: 75%;
   border-radius: 5px;
   background-color: #eeeeee;
   margin: 1em;
