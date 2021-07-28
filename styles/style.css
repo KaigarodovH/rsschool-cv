@@ -32,12 +32,11 @@ body {
 }
 
 header {
-  height: 9vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: #e0e0e049;
-  min-height: 85px;
+  min-height: min-content;
 }
 header > h1,
 p {
