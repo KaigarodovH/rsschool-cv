@@ -1,15 +1,50 @@
 .projects-wrapper {
   position: relative;
+  padding: 20px 0;
+  height: 100%;
 }
 .projects-carts {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  max-width: 490px;
+  max-height: 100%;
+  grid-gap: 0.4vw;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-areas:
+    "museum museum"
+    "cv photofilter"
+    "soon photofilter"
+    "vslider vslider";
+}
+.photofilter {
+  grid-area: photofilter;
+}
+.museum {
+  grid-area: museum;
+}
+.lastcv {
+  grid-area: cv;
+}
+.v-slider {
+  grid-area: vslider;
+}
+.soon {
+  transition: filter 0.3s;
+  grid-area: soon;
+  &:hover {
+    filter: invert(100%);
+  }
 }
 .projects-carts__item {
   padding: 3px;
 }
 .projects-carts__item > img {
-  border: 1px solid whitesmoke;
-  max-width: 300px;
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+  object-fit: cover;
+  &:hover {
+    filter: grayscale(0%);
+  }
 }
