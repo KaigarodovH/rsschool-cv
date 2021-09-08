@@ -1,0 +1,19 @@
+.header-wrapper {
+  margin: 0 auto;
+  padding: 35px 0 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: $desktop-max-width - 361px;
+  color: white;
+}
+.header-navigation {
+  height: 30px;
+}
+.link_enabled {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding-right: 70px;
+}
+.refer-wrapper {
+  display: flex;
+}

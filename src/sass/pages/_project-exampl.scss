@@ -1,0 +1,15 @@
+.projects-wrapper {
+  position: relative;
+}
+.projects-carts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.projects-carts__item {
+  padding: 3px;
+}
+.projects-carts__item > img {
+  border: 1px solid whitesmoke;
+  max-width: 300px;
+}

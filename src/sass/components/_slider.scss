@@ -1,0 +1,10 @@
+.slider-container {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.slider-track {
+  height: 100%;
+  transition: transform 0.5s;
+}
