@@ -11,7 +11,7 @@
 }
 
 .section-wrapper {
-  height: 100%;
+  padding: 7px 0;
 }
 
 .section-content {
@@ -19,7 +19,7 @@
 }
 //TEXT
 .section-content__title {
-  padding: 14px 0 14px;
+  padding: 14px 0 5px;
   font-family: "Poppins", sans-serif;
   letter-spacing: 0;
   font-size: 18px;
@@ -29,7 +29,7 @@
 }
 
 .section-content__text {
-  padding: 18px 0 18px; //48px;
+  padding: 10px 0 10px; //48px;
   color: #cfcfcf;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -49,5 +49,6 @@
 .right-side-wrapper {
   flex: 1 0 auto;
   max-width: 490px;
+  padding: 7vh 0;
   //border: 2px solid white;
 }

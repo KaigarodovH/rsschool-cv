@@ -8,12 +8,20 @@
 }
 .header-navigation {
   height: 30px;
+  max-width: 40%;
+  flex: 1 0 auto;
+  .refer-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 .link_enabled {
   color: white;
   font-family: "Poppins", sans-serif;
-  padding-right: 70px;
-}
-.refer-wrapper {
-  display: flex;
+  cursor: pointer;
+  padding: 0 5px;
+  &:hover {
+    background-color: white;
+    color: black;
+  }
 }
