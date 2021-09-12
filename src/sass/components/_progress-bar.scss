@@ -10,64 +10,73 @@
   line-height: 180%;
 }
 .stack-discr__item {
-  padding: 10px 0;
-  width: 90%;
+  margin: 0 auto;
+  padding: 5px 0;
+  width: 75%;
 }
-.stack-discr__progress {
-  background: rgba(255, 255, 255, 0.1);
-  justify-content: flex-start;
 
-  align-items: center;
-  position: relative;
+.progress-bar {
+  background: rgba(255, 255, 255, 0.1);
   padding: 0 5px;
-  display: flex;
-  height: 20px;
+  height: 24px;
   width: 100%;
-}
-
-.progress-value {
-  animation: load 3s normal forwards;
-  box-shadow: 0 10px 40px -10px #fff;
-  border-radius: 100px;
-  background: #fff;
-  height: 10px;
-  width: 0;
-}
-
-@keyframes load {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 68%;
-  }
-}
-
-#volume {
-  -webkit-appearance: none;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 100px;
-  width: 70%;
+  position: relative;
   display: flex;
-  height: 20px;
   align-items: center;
-  padding: 0 5px;
+  color: black;
+  &::before {
+    font-family: Poppins, sans-serif;
+    padding-right: 5px;
+    height: 16px;
+    background-color: rgb(243, 239, 239);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
 }
-#volume::-webkit-slider-runnable-track {
-  -webkit-appearance: none;
-  color: #13bba4;
+.progress-90 {
+  &::before {
+    content: "9|10";
+    width: 90%;
+  }
 }
-#volume::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  background-color: whitesmoke;
-  height: 10px;
-  width: 10px;
-  border-radius: 100px;
-  box-shadow: 0 10px 40px -10px #fff;
+.progress-80 {
+  &::before {
+    content: "8|10";
+    width: 80%;
+  }
 }
-#volume::-ms-fill-lower {
-  background-color: #43e5f7;
+.progress-70 {
+  &::before {
+    content: "7|10";
+    width: 70%;
+  }
 }
-#volume::-moz-range-progress {
-  background-color: #43e5f7;
+.progress-60 {
+  &::before {
+    content: "6|10";
+    width: 60%;
+  }
+}
+
+.progress-50 {
+  &::before {
+    content: "5|10";
+    width: 50%;
+  }
+}
+
+.progress-40 {
+  &::before {
+    content: "4|10";
+    width: 40%;
+  }
+}
+
+.progress-30 {
+  &::before {
+    content: "3|10";
+    width: 30%;
+  }
 }
