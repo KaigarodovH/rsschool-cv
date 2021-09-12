@@ -3,11 +3,13 @@
   padding: 35px 0 0;
   display: flex;
   justify-content: space-between;
-  max-width: $desktop-max-width - 361px;
+  //max-width: $desktop-max-width - 361px;
   color: white;
+  .header-img {
+    display: none;
+  }
 }
 .header-navigation {
-  height: 30px;
   max-width: 40%;
   flex: 1 0 auto;
   .refer-wrapper {
