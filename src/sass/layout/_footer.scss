@@ -2,4 +2,17 @@
   height: 30px;
   color: white;
   max-width: ($desktop-max-width - 361px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-media-contacts > img {
+  width: 2vw;
+  margin-right: 1vw;
+  filter: invert(100%);
 }
