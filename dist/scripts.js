@@ -62,3 +62,9 @@ function changeNaveState(){
 let changeMenyState = changeNaveState();
 document.querySelectorAll(".article-wrapper").forEach(el=>el.position=0);
 document.querySelector(".header-img").addEventListener("click", changeMenyState);
+document.querySelectorAll(".contacts__item").forEach(el => 
+    el.addEventListener("click",(e)=>
+    {
+        navigator.clipboard.writeText(e.target.getAttribute("data-val"));
+        alert(e.target.alt + " is copied");
+    }))   
