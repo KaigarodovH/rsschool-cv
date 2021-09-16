@@ -32,7 +32,8 @@ btnsDown.forEach(el=>{
 
 btnsUp.forEach(el=>{
     el.addEventListener("click",()=>{
-        activeArticle.position-=heigthSlide;
+        activeArticle.position-=activeArticle.querySelector(".slider-track").clientHeight/4;
+        if (activeArticle.position <= -activeArticle.querySelector(".slider-track").clientHeight) activeArticle.position =  -activeArticle.querySelector(".slider-track").clientHeight;
         activeArticle.querySelector(".slider-track").style.transform = `translateY(${activeArticle.position}px)`
         console.log("down")})
     });
