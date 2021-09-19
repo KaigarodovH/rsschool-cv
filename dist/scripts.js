@@ -7,17 +7,19 @@ let activeArticle = document.querySelector(".article_active");
 const isDesktop = window.matchMedia('(min-width: 1160px)');
 
 function moveSlideUp(){
-    console.log(activeArticle.position);
-    console.log(activeArticle.querySelector(".slider-track").clientHeight);
-    if(activeArticle.position > activeArticle.querySelector(".slider-track").clientHeight ||
-    activeArticle.position === 0){
-        console.log("qew");
+    activeArticle.position+=heigthSlide/2;
+    if(activeArticle.position > 0){
         activeArticle.position =  0;
     }    
-    else {
-        activeArticle.position+=heigthSlide/2;
-    }
     activeArticle.querySelector(".slider-track").style.transform = `translateY(${activeArticle.position}px)`
+}
+
+function moveSlideDown(){
+    activeArticle.position-=heigthSlide/2;
+    if(activeArticle.position <= -(activeArticle.querySelector(".slider-track").scrollHeight - activeArticle.querySelector(".slider-track").clientHeight)){
+        activeArticle.position =  -(activeArticle.querySelector(".slider-track").scrollHeight - activeArticle.querySelector(".slider-track").clientHeight);
+    }    
+    activeArticle.querySelector(".slider-track").style.transform = `translateY(${activeArticle.position}px)`;;
 }
 
 function setActiveArticle(id){
@@ -27,27 +29,23 @@ function setActiveArticle(id){
     if(!isDesktop.matches) changeMenyState();
 }
 
-btnsDown.forEach(el=>{
-    el.addEventListener("click",moveSlideUp)});
+btnsDown.forEach(el => {
+    el.addEventListener("click", moveSlideUp)
+    });
 
-btnsUp.forEach(el=>{
-    el.addEventListener("click",()=>{
-        activeArticle.position-=activeArticle.querySelector(".slider-track").clientHeight/4;
-        if (activeArticle.position <= -activeArticle.querySelector(".slider-track").clientHeight) activeArticle.position =  -activeArticle.querySelector(".slider-track").clientHeight;
-        activeArticle.querySelector(".slider-track").style.transform = `translateY(${activeArticle.position}px)`
-        console.log("down")})
+btnsUp.forEach(el => {
+    el.addEventListener("click", moveSlideDown)
     });
 
 
 reference.forEach(element => {
     element.addEventListener("click",(e)=>setActiveArticle(e.target.getAttribute("href")))
-}); 
+    }); 
 
 function changeNaveState(){
     let isOpen = false;
     let menu = document.querySelector(".header-navigation");
     function changeState(){
-        console.log(isOpen)
         if(!isOpen){
             menu.style.display = "flex";
             isOpen = true;
