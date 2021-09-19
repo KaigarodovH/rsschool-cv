@@ -19,7 +19,7 @@
 }
 .link_enabled {
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: $base-font;
   cursor: pointer;
   padding: 0 5px;
   &:hover {

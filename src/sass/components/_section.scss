@@ -20,7 +20,7 @@
 //TEXT
 .section-content__title {
   padding: 14px 0 5px;
-  font-family: "Poppins", sans-serif;
+  font-family: $base-font;
   letter-spacing: 0;
   font-size: 18px;
   line-height: auto;
@@ -31,7 +31,7 @@
 .section-content__text {
   padding: 10px 0 10px; //48px;
   color: #cfcfcf;
-  font-family: "Poppins", sans-serif;
+  font-family: $base-font;
   font-size: 16px;
   letter-spacing: 0;
   line-height: 180%;
