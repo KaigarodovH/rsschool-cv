@@ -18,13 +18,24 @@
   flex: 1 0 auto;
 }
 //TEXT
+.article-title,
 .section-content__title {
-  padding: 14px 0 5px;
   font-family: $base-font;
   letter-spacing: 0;
-  font-size: 18px;
   line-height: auto;
   font-weight: 600;
+  color: #cfcfcf;
+}
+.article-title {
+  text-align: center;
+  padding: 15px 0 5px;
+  font-size: 22px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.section-content__title {
+  padding: 14px 0 5px;
+  font-size: 17px;
   color: #cfcfcf;
 }
 
