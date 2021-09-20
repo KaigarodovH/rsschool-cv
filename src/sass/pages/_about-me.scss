@@ -1,0 +1,53 @@
+.slide-discription {
+  background-color: white;
+  max-width: 300px;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  padding: 5px 15px;
+  transform: skew(170deg);
+}
+.slide-discription > h2 {
+  display: block;
+  transform: skew(-170deg);
+}
+
+.first-last-name {
+  font-family: $base-font;
+  font-size: 20px;
+}
+.profession {
+  font-family: $base-font;
+  font-size: 15px;
+}
+.contacts {
+  background: rgba(27, 29, 26, 0.87);
+  max-width: max-content;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  li {
+    padding: 5px;
+    cursor: pointer;
+
+    img {
+      width: 35px;
+    }
+  }
+}
+
+.photo-portfolio {
+  width: 80%;
+}
+
+.profile-contant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  .slide-discription {
+    transform: skew(170deg) translateY(50%);
+  }
+}

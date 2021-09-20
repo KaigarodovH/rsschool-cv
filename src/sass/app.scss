@@ -1,0 +1,25 @@
+/*Обнуление*/
+
+/*------------------------------------------------------------*/
+@import "./abstracts/variables";
+@import "./base/reset";
+
+@import "./components/button";
+@import "./components/progress-bar";
+@import "./components/section";
+@import "./components/slider";
+
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/main";
+
+@import "./pages/about-me";
+@import "./pages/project-exampl";
+@import "./pages/skills";
+@import "./pages/education";
+
+@import "./base/media";
+
+.article_active {
+  display: flex;
+}
