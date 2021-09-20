@@ -1,0 +1,29 @@
+.header-wrapper {
+  margin: 0 auto;
+  padding: 35px 0 0;
+  display: flex;
+  justify-content: space-between;
+  //max-width: $desktop-max-width - 361px;
+  color: white;
+  .header-img {
+    display: none;
+  }
+}
+.header-navigation {
+  max-width: 40%;
+  flex: 1 0 auto;
+  .refer-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.link_enabled {
+  color: white;
+  font-family: $base-font;
+  cursor: pointer;
+  padding: 0 5px;
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
